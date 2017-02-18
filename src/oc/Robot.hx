@@ -63,9 +63,9 @@ extern class Robot
 	public static function compareFluid(): Bool;
 	public static function compareFluidUp(): Bool;
 	public static function compareFluidDown(): Bool;
-	public static function drain(?count: Int)(): Bool;
-	public static function drainUp(?count: Int)(): Bool;
-	public static function drainDown(?count: Int)(): Bool;
+	public static function drain(?count: Int): Bool;
+	public static function drainUp(?count: Int): Bool;
+	public static function drainDown(?count: Int): Bool;
 	public static function fill(?count: Int): Bool;
 	public static function fillUp(?count: Int): Bool;
 	public static function fillDown(?count: Int): Bool;
